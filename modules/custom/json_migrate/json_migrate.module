@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Contains json_migrate.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function json_migrate_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the json_migrate module.
+    case 'help.page.json_migrate':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This Module is Used to Migrate Data from JSON file to Mysql') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+// function json_migrate_entity_view_alter(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+//   kint($build);die;
+// }

@@ -1,0 +1,20 @@
+add json migrate entity entities:
+  title: 'Create new Json migrate entity entities'
+
+administer json migrate entity entities:
+  title: 'Administer Json migrate entity entities'
+  description: 'Allow to access the administration form to configure Json migrate entity entities.'
+  restrict access: true
+
+delete json migrate entity entities:
+  title: 'Delete Json migrate entity entities'
+
+edit json migrate entity entities:
+  title: 'Edit Json migrate entity entities'
+
+view published json migrate entity entities:
+  title: 'View published Json migrate entity entities'
+
+view unpublished json migrate entity entities:
+  title: 'View unpublished Json migrate entity entities'
+
