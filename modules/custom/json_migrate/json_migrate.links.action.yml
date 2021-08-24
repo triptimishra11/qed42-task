@@ -1,5 +1,0 @@
-entity.json_migrate_entity.add_form:
-  route_name: entity.json_migrate_entity.add_form
-  title: 'Add Json migrate entity'
-  appears_on:
-    - entity.json_migrate_entity.collection

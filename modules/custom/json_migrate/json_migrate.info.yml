@@ -1,5 +1,0 @@
-name: 'json_migrate'
-type: module
-description: 'This Module is Used to Migrate Data from JSON file to Mysql'
-core_version_requirement: ^8 || ^9
-package: 'Custom'
